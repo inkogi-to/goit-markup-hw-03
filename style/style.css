@@ -211,6 +211,9 @@ h6 {
     background-color: #ffffff;
 }
 
+.features {
+    padding-top: 94px;
+}
 
 .features__title,
 .portfolio__title {
@@ -274,16 +277,18 @@ h6 {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team__item-content {
+    padding: 30px 0 30px;
+}
+
 .team__item-title {
-    margin: 30px 0 10px;
+    margin-bottom: 10px;
 
     text-align: center;
     font-weight: 500;
 }
 
 .team__item-subtitle {
-    margin-bottom: 30px;
-
     font-weight: 400;
     text-align: center;
 
@@ -308,6 +313,11 @@ h6 {
     letter-spacing: 0.03em;
     font-style: normal;
 }
+
+.footer__item-address:not(:last-child) {
+    margin: 9px 0 9px;
+}
+
 
 .footer__email-address,
 .footer__tel-address {
